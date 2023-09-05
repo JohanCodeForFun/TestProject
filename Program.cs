@@ -1,6 +1,9 @@
-int firstValue = 500;
-int secondValue = 600;
-int largerValue;
+Random dice = new Random();
 
-Console.WriteLine("Display the greater of two values:\n");
-Console.WriteLine(Math.Max(firstValue, secondValue));
+int roll1 = dice.Next(1, 7);
+int roll2 = dice.Next(1, 7);
+int roll3 = dice.Next(1, 7);
+
+int total = roll1 + roll2 + roll3;  // Add the rolls together
+
+Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
