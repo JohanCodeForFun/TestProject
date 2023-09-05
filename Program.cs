@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, C#!");
+int firstValue = 500;
+int secondValue = 600;
+int largerValue;
+
+Console.WriteLine("Display the greater of two values:\n");
+Console.WriteLine(Math.Max(firstValue, secondValue));
