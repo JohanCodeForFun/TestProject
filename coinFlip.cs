@@ -1,25 +1,21 @@
-// coin flip program
-Random Random = new Random();
-int coinFlip = Random.Next(0, 2);
-int coinFlips = 10;
+// // coin flip program
+// Random Random = new Random();
+// int coinFlip = Random.Next(0, 2);
+// int coinFlips = 10;
 
-int countHeads = 0;
-int countTails = 0;
+// int countHeads = 0;
+// int countTails = 0;
 
-for (int i = 0; i < coinFlips; i++)
-{
-  coinFlip = Random.Next(0, 2);
-  if (coinFlip == 0) {
-    Console.WriteLine("Heads");
-    countHeads++;
-  } else {
-    Console.WriteLine("Tails");
-    countTails++;
-  }
-}
+// for (int i = 0; i < coinFlips; i++)
+// {
+//   coinFlip = Random.Next(0, 2);
+//   if (coinFlip == 0) {
+//     Console.WriteLine("Heads");
+//     countHeads++;
+//   } else {
+//     Console.WriteLine("Tails");
+//     countTails++;
+//   }
+// }
 
-Console.WriteLine($"Heads: {countHeads}, Tails: {countTails}");
-
-
-// q: how do i solve Only one compilation unit can have top-level statements.
-// a: https://stackoverflow.com/questions/64212103/only-one-compilation-unit-can-have-top-level-statements
+// Console.WriteLine($"Heads: {countHeads}, Tails: {countTails}");
